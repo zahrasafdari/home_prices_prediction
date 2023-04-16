@@ -14,7 +14,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # In[295]:
 
 
-df = pd.read_csv("/Users/Lenovo/Desktop/regression_project/home_price.csv")
+df = pd.read_csv("home_price.csv")
 
 # take a look at the dataset
 df.head()
